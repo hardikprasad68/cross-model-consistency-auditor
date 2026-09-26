@@ -1,0 +1,9 @@
+id: creative_story_001
+category: creative_writing
+prompt_template: |
+  Write a 4-sentence short story about a lighthouse keeper who discovers
+  something unusual washed up on the shore.
+variables: {}
+expected_format: text
+expected_schema: null
+tags: [creative, open_ended]

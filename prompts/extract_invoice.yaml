@@ -1,0 +1,15 @@
+id: extract_invoice_001
+category: structured_extraction
+prompt_template: |
+  Extract the invoice number, total amount, and due date from this text.
+  Return ONLY valid JSON with keys: invoice_number, total_amount, due_date.
+  Do not include any explanation, markdown formatting, or code fences.
+  Text: {{invoice_text}}
+variables:
+  invoice_text: "Invoice #INV-2291. Total due: $452.10 by Oct 15, 2026."
+expected_format: json
+expected_schema:
+  invoice_number: string
+  total_amount: string
+  due_date: string
+tags: [json, extraction]

@@ -1,0 +1,10 @@
+id: code_gen_001
+category: code_generation
+prompt_template: |
+  Write a Python function called `is_palindrome` that takes a string and
+  returns True if it is a palindrome (ignoring case and spaces), False
+  otherwise. Return ONLY the code, no explanation.
+variables: {}
+expected_format: code
+expected_schema: null
+tags: [code, python]

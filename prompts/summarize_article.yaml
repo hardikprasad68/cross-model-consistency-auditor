@@ -1,0 +1,15 @@
+id: summarize_article_001
+category: summarization
+prompt_template: |
+  Summarize the following article in exactly 2 sentences.
+  Article: {{article_text}}
+variables:
+  article_text: "A new study published this week found that regular walking for
+    30 minutes a day was associated with a measurable reduction in
+    cardiovascular disease risk across a sample of 10,000 adults tracked
+    over five years. Researchers noted the effect held even after
+    controlling for diet and existing health conditions, suggesting walking
+    alone provides significant protective benefit."
+expected_format: text
+expected_schema: null
+tags: [summarization, text]

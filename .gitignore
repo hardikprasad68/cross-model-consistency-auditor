@@ -1,0 +1,7 @@
+.env
+data/*.duckdb
+reports/*.html
+venv/
+__pycache__/
+*.pyc
+go-orchestrator/cmca-bin
